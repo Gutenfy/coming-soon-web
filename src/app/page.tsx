@@ -8,7 +8,7 @@ import ADVANTAGES from "./constants/advantages";
 const Page = () => {
   return (
     <div className="flex flex-col min-h-screen">
-      <div className="relative min-h-[300px] md:min-h-[500px] lg:min-h-[700px]">
+   <div className="relative min-h-[250px] md:min-h-[400px] lg:min-h-[600px]"> {/* Ajusta las alturas aquí */}
         <Image
           src="https://storage.googleapis.com/gutenfy-web-dev/establecimientos/enterprises%20(1).webp"
           fill
@@ -21,8 +21,6 @@ const Page = () => {
         />
         <div className="absolute inset-0 bg-black opacity-10"></div>
         <div className="container mx-auto px-4 h-full flex flex-col md:flex-row items-center justify-center md:justify-between pt-20 relative">
-          {" "}
-          {/* Añadimos "relative" aquí */}
           {/* Logo de la empresa en la esquina superior izquierda */}
           <img
             src="https://storage.googleapis.com/gutenfy-web-dev/logos/logo-gutenfy.svg"
@@ -37,7 +35,7 @@ const Page = () => {
             <p>Detrás de cada buena impresión hay una buena copistería.</p>
           </div>
           {/* Columna del formulario */}
-          <div className="z-10 sm:py-10 md:p-10 w-full xl:w-1/3 flex justify-center items-center h-screen">
+          <div className="z-10 sm:py-10 md:p-10 w-full xl:w-1/3 flex justify-center items-center"> {/* Ajusta el posicionamiento y tamaño si es necesario */}
             <iframe
               width="100%"
               height="770"
