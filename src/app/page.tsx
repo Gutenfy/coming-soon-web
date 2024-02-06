@@ -25,7 +25,7 @@ const Page = () => {
           {/* Añadimos "relative" aquí */}
           {/* Logo de la empresa en la esquina superior izquierda */}
           <img
-            src="https://storage.googleapis.com/gutenfy-web-dev/logos/Logo%20Gutenfy%20-%20Amarillo.svg"
+            src="https://storage.googleapis.com/gutenfy-web-dev/logos/logo-gutenfy.svg"
             alt="gutenfy-logo"
             className="absolute top-0 left-0 m-4 h-12 w-12 md:h-16 md:w-16 lg:h-20 lg:w-20 xl:h-24 xl:w-24 z-10"
           />
